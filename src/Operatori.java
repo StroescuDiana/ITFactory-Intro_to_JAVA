@@ -4,6 +4,8 @@
 ->aritmetici: +, -, /, *, %(modulo)
 ->de comparatie: < >, ==, !=, >=, <=
 ->logici: &&(si), ||(sau; suficient sa fie unul adevarat)
+
+Ternary operator ? "x" : "y"
 */
 
 
@@ -12,6 +14,7 @@ public class Operatori {
         // Arithmetic Operators
         int a = 10;
         int b = 5;
+        String age;
 
         int sum = a + b;
         int difference = a - b;
@@ -55,6 +58,10 @@ public class Operatori {
         System.out.println("\nLogical Operators:");
         System.out.println("p && q: " + resultAND);
         System.out.println("p || q: " + resultOR);
+
+        // Ternary Operator
+        age = a < 18 ? "You are a minor" : "You're an adult";
+        System.out.println(age);
     }
 }
 

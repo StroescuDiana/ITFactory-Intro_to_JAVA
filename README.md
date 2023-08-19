@@ -31,12 +31,15 @@ Here's an overview of the project structure to demonstrate practical application
 - **src/**
     - `OOP/`: Object-Oriented Programming with a pasta recipe :)
     - `Array/`: Arrays
+    - `Array_advanced/`: Array List
     - `for_loop/`: For Loops
     - `functii/`: Functions
     - `HelloWorld/`: Hello World
     - `Liste/`: Lists
     - `Maps/`: Maps
     - `Operatori/`: Operators
+    - `Switch/`: Switch
+    - `UserInput/`: Scanner
     - `Variabile/`: Variables
     - `While/`: While Loops
 
